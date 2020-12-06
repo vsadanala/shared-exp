@@ -3,16 +3,16 @@ package com.mcnz.jenkins
 class uatInput {
 
   boolean buildIsUatApproved() {
-    flag = false
-    file = new File("C:/_tools/approved.txt")
+    flag = false;
+    file = new File("C:/_tools/approved.txt");
     
     if (file.exists()){
-      println "Printing Approval File Contents"
+      println "Printing Approval File Contents";
       file.eachLine{line-> println line}
-    	flag = true
+    	flag = true;
     }
     else {
-      println "Approval file does not exist."
+      println "Approval file does not exist.";
     }
     
     return flag;
