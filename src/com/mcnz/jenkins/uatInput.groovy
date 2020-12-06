@@ -1,5 +1,5 @@
 package com.mcnz.jenkins
-
+ 
 class uatInput {
 
   boolean buildIsUatApproved() {
