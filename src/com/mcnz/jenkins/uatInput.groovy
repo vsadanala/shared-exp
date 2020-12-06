@@ -2,7 +2,7 @@ package com.mcnz.jenkins
 
 class uatInput {
 
-  def buildIsUatApproved() {
+  boolean buildIsUatApproved() {
     flag = false
     file = new File("C:/_tools/approved.txt")
     
