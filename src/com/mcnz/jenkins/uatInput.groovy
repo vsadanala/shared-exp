@@ -1,6 +1,6 @@
 package com.mcnz.jenkins
  
-class uatInput {
+public class uatInput {
 
   boolean buildIsUatApproved() {
     flag = false;
