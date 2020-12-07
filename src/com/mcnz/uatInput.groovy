@@ -7,7 +7,7 @@ public class uatInput {
     def file = new File("C:/_tools/approved.txt")
     
     if (file.exists()){
-      println "Printing Approval File Contents"
+      println "ABC Printing Approval File Contents"
       file.eachLine{line-> println line}
       return true;
     }
