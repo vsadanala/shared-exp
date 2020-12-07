@@ -2,13 +2,10 @@ package com.mcnz
 
 public class uatInput {
 
-  def buildIsUatApproved(def name) {
-    println name
+  def buildIsUatApproved() {
     def file = new File("C:/_tools/approved.txt")
     
     if (file.exists()){
-      println "ABC Printing Approval File Contents"
-      file.eachLine{line-> println line}
       return true;
     }
     else {
@@ -16,7 +13,6 @@ public class uatInput {
     }
     
     return false;
-    
   }
 
 }
